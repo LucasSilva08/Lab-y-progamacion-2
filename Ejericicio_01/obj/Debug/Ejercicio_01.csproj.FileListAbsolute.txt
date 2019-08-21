@@ -1,0 +1,7 @@
+D:\Lab-y-progamacion-2\Ejericicio_01\bin\Debug\Ejericicio_01.exe.config
+D:\Lab-y-progamacion-2\Ejericicio_01\bin\Debug\Ejericicio_01.exe
+D:\Lab-y-progamacion-2\Ejericicio_01\bin\Debug\Ejericicio_01.pdb
+D:\Lab-y-progamacion-2\Ejericicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+D:\Lab-y-progamacion-2\Ejericicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\Ejericicio_01\obj\Debug\Ejericicio_01.exe
+D:\Lab-y-progamacion-2\Ejericicio_01\obj\Debug\Ejericicio_01.pdb

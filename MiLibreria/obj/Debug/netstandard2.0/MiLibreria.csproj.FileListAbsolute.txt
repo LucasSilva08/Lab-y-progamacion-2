@@ -1,0 +1,8 @@
+D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+D:\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+D:\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
+D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
