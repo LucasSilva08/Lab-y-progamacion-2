@@ -6,3 +6,12 @@ D:\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
 D:\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
 D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
 D:\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
