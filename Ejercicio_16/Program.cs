@@ -41,6 +41,7 @@ namespace Ejercicio_16
             alumno3.Estudiar(7, 8);
             alumno3.CalcularFinal();
             Console.WriteLine(alumno3.Mostrar());
+            
 
             Console.ReadKey();
 
