@@ -34,7 +34,15 @@ namespace Ejercicio_16
         }
         public string Mostrar()
         {
+            if (notaFinal!=-1)
+            {
+                return this.nombre + "-" + this.apellido + "-" + this.legajo + " - Nota Final: " + this.notaFinal;
 
+            }
+            else
+            {
+                return this.nombre + "-" + this.apellido + "-" + this.legajo + " - Alumno Desaprobado";
+            }
         }
             
     }
