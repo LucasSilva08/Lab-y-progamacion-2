@@ -25,9 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_04", "Clase_04\Clase_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase04.WindowsForms", "Clase04.WindowsForms\Clase04.WindowsForms.csproj", "{A5646CFC-E1F4-4B98-A951-5AB768B48E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_05.Entitades", "Clase_05.Entitades\Clase_05.Entitades.csproj", "{C7FE5C18-0868-4183-9763-10DF94EFDC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_05.Entitades", "Clase_05.Entitades\Clase_05.Entitades.csproj", "{C7FE5C18-0868-4183-9763-10DF94EFDC0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_05", "Clase_05\Clase_05.csproj", "{9537EFA9-ECD9-410A-BB64-DA1D79B3A948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_06.Entidades", "Clase_06.Entidades\Clase_06.Entidades.csproj", "{D5C69DC8-F389-4642-8E01-E6253BD05A36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9537EFA9-ECD9-410A-BB64-DA1D79B3A948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9537EFA9-ECD9-410A-BB64-DA1D79B3A948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9537EFA9-ECD9-410A-BB64-DA1D79B3A948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C69DC8-F389-4642-8E01-E6253BD05A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C69DC8-F389-4642-8E01-E6253BD05A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C69DC8-F389-4642-8E01-E6253BD05A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C69DC8-F389-4642-8E01-E6253BD05A36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
