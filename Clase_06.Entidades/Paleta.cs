@@ -126,8 +126,18 @@ namespace Clase_06.Entidades
         }
         public static int operator |(Paleta pal, Tempera temp)
         {
-
+            int indice=-1;
+            int i;
+            for(i=0; i<pal.cantidadMaximaColores;i++)
+            {
+                if(pal==temp)
+                {
+                    indice = i;
+                    break;
+                }
+            }
+            return indice;
         }
-
+        
     }
 }

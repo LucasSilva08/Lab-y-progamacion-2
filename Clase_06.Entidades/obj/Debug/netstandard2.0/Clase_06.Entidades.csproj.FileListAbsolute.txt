@@ -1,0 +1,9 @@
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.csprojAssemblyReference.cache
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\Clase_06.Entidades\bin\Debug\netstandard2.0\Clase_06.Entidades.deps.json
+D:\Lab-y-progamacion-2\Clase_06.Entidades\bin\Debug\netstandard2.0\Clase_06.Entidades.dll
+D:\Lab-y-progamacion-2\Clase_06.Entidades\bin\Debug\netstandard2.0\Clase_06.Entidades.pdb
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.dll
+D:\Lab-y-progamacion-2\Clase_06.Entidades\obj\Debug\netstandard2.0\Clase_06.Entidades.pdb

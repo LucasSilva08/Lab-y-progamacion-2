@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\Clase_05.Entitades\\Clase_05.Entitades.csproj",
+      "projectUniqueName": "D:\\Lab-y-progamacion-2\\Clase_05.Entitades\\Clase_05.Entitades.csproj",
       "projectName": "Clase_05.Entitades",
-      "projectPath": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\Clase_05.Entitades\\Clase_05.Entitades.csproj",
+      "projectPath": "D:\\Lab-y-progamacion-2\\Clase_05.Entitades\\Clase_05.Entitades.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\Clase_05.Entitades\\obj\\",
+      "outputPath": "D:\\Lab-y-progamacion-2\\Clase_05.Entitades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",

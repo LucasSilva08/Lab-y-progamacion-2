@@ -1,0 +1,9 @@
+D:\Lab-y-progamacion-2\Clase_05.Entitades\bin\Debug\netstandard2.0\Clase_05.Entitades.deps.json
+D:\Lab-y-progamacion-2\Clase_05.Entitades\bin\Debug\netstandard2.0\Clase_05.Entitades.dll
+D:\Lab-y-progamacion-2\Clase_05.Entitades\bin\Debug\netstandard2.0\Clase_05.Entitades.pdb
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.csprojAssemblyReference.cache
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.dll
+D:\Lab-y-progamacion-2\Clase_05.Entitades\obj\Debug\netstandard2.0\Clase_05.Entitades.pdb

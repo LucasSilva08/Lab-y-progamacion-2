@@ -25,7 +25,7 @@ namespace Clase_06.Entidades
         public static bool operator == (Tempera tem1, Tempera tem2)
         {
             bool retorno = false;
-            if (!tem1.Equals(null) && !tem2.Equals(null))
+            if (!Object.Equals(tem1, null) && !Object.Equals(tem2, null))
             {
                 if (tem1.color == tem2.color && tem1.marca == tem2.marca)
                 {
