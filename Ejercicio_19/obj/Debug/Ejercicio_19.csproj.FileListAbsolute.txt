@@ -1,0 +1,6 @@
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\bin\Debug\Ejercicio_19.exe.config
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\bin\Debug\Ejercicio_19.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\bin\Debug\Ejercicio_19.pdb
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\obj\Debug\Ejercicio_19.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\obj\Debug\Ejercicio_19.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_19\obj\Debug\Ejercicio_19.pdb

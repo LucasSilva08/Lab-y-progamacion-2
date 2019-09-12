@@ -1,0 +1,7 @@
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\obj\Debug\Ejercicio_08.csprojAssemblyReference.cache
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\obj\Debug\Ejercicio_08.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\bin\Debug\Ejercicio_08.exe.config
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\bin\Debug\Ejercicio_08.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\bin\Debug\Ejercicio_08.pdb
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\obj\Debug\Ejercicio_08.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_08\obj\Debug\Ejercicio_08.pdb

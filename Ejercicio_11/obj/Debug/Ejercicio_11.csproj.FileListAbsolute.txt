@@ -1,0 +1,7 @@
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\bin\Debug\Ejercicio_11.exe.config
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\bin\Debug\Ejercicio_11.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\bin\Debug\Ejercicio_11.pdb
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\obj\Debug\Ejercicio_11.csprojAssemblyReference.cache
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\obj\Debug\Ejercicio_11.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\obj\Debug\Ejercicio_11.exe
+C:\Users\Los Fierros\Desktop\UTN\Lab II\EjerciciosCasa\Ejercicio_11\obj\Debug\Ejercicio_11.pdb
