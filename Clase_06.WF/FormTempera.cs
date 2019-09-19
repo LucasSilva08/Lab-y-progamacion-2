@@ -15,14 +15,8 @@ namespace Clase_06.WF
     {
         private Tempera t;
 
-        public Tempera MiTempera
-        {
-            get
-            {
-                return this.t;
-            } 
-
-        }
+        
+        public Tempera MiTempera { get {return this.t; } }
 
         public FormTempera()
         {
@@ -42,14 +36,25 @@ namespace Clase_06.WF
             string cadena = this.txtMarca.Text;
             int cantidad = int.Parse(this.txtCantidad.Text);
             this.t = new Tempera((ConsoleColor) this.combo.SelectedItem, cadena, cantidad);
-            this.DialogResult = DialogResult.OK;
             MessageBox.Show(t);
+            this.DialogResult = DialogResult.OK;
+            
 
         }
 
         private void bttnCancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
+        }
+        public FormTempera(Tempera temp):this()
+        {
+            string marca = temp.propTemperaMarca;
+            int cantidad = temp.propTemperaCant;
+            ConsoleColor color = temp.propTemperaColor;
+            this.txtMarca.Text = marca;
+            this.txtCantidad.Text = cantidad.ToString();
+            this.combo.SelectedItem = color;
+
         }
     }
 }

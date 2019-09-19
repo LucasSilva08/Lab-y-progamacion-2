@@ -35,14 +35,101 @@ namespace Clase_06.WF
         {
             FormTempera frm = new FormTempera();
             //frm.MdiParent = this;
-            string cadena;
+            //string cadena;
             frm.ShowDialog();
             if(frm.DialogResult == DialogResult.OK)
             {
-               cadena = frm.MiTempera;
-               this.listBox1.Items.Add(cadena);
+                //cadena = frm.MiTempera;
+                miPaleta = miPaleta+ frm.MiTempera;
+                for(int i=0;i<miPaleta.CantidadMaxima;i++)
+                {
+                    if(!Object.Equals(miPaleta[i],null))
+                    {
+                        this.listBox1.Items.Add((string)miPaleta[i]);
+
+                    }
+                    
+
+                }
+               
             }
             
+        }
+
+        private void bttnSumar_Click(object sender, EventArgs e)
+        {
+            FormTempera frm = new FormTempera();
+            //frm.MdiParent = this;
+            //string cadena;
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                //cadena = frm.MiTempera;
+                miPaleta = miPaleta + frm.MiTempera;
+                this.listBox1.Items.Clear();
+                for (int i = 0; i < miPaleta.CantidadMaxima; i++)
+                {
+                    if (!Object.Equals(miPaleta[i], null))
+                    {
+                        this.listBox1.Items.Add((string)miPaleta[i]);
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+        private void bttnRestar_Click(object sender, EventArgs e)
+        {
+            FormTempera frm = new FormTempera();
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                miPaleta -= frm.MiTempera;
+                this.listBox1.Items.Clear();
+                for (int i = 0; i < miPaleta.CantidadMaxima; i++)
+                {
+                    if (!Object.Equals(miPaleta[i], null))
+                    {
+                        this.listBox1.Items.Add((string)miPaleta[i]);
+
+                    }
+
+
+                }
+            }
+
+        }
+
+        private void bttnModificar_Click(object sender, EventArgs e)
+        {
+            int indice;
+            indice = this.listBox1.SelectedIndex;
+            FormTempera frm = new FormTempera(miPaleta[indice]);
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                miPaleta[indice] = frm.MiTempera;
+                this.listBox1.Items.Clear();
+                for (int i = 0; i < miPaleta.CantidadMaxima; i++)
+                {
+                    if (!Object.Equals(miPaleta[i], null))
+                    {
+                        this.listBox1.Items.Add((string)miPaleta[i]);
+
+                    }
+
+
+                }
+
+            }
+
+
+
+
         }
     }
 }
