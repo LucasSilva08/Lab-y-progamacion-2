@@ -30,12 +30,12 @@ namespace Clase_09.Entidades
         }
         public static int OrdenarPorApellidoAsc(Alumno a, Alumno b)
         {
-            
-            return String.Compare(a.apellido,b.apellido);
+
+            return String.Compare(a.apellido, b.apellido);
         }
         public static int OrdenarPorApellidoDesc(Alumno a, Alumno b)
         {
-            return -1*OrdenarPorApellidoAsc(a,b);
+            return -1 * OrdenarPorApellidoAsc(a, b);
         }
         public static int OrdenarPorLegajoAsc(Alumno a, Alumno b)
         {

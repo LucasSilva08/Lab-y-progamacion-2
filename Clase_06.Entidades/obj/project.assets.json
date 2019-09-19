@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Los Fierros\\Desktop\\Lab-y-progamacion-2\\Clase_06.Entidades\\Clase_06.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Los Fierros\\Desktop\\UTN\\Lab-y-progamacion-2\\Clase_06.Entidades\\Clase_06.Entidades.csproj",
       "projectName": "Clase_06.Entidades",
-      "projectPath": "C:\\Users\\Los Fierros\\Desktop\\Lab-y-progamacion-2\\Clase_06.Entidades\\Clase_06.Entidades.csproj",
+      "projectPath": "C:\\Users\\Los Fierros\\Desktop\\UTN\\Lab-y-progamacion-2\\Clase_06.Entidades\\Clase_06.Entidades.csproj",
       "packagesPath": "C:\\Users\\Los Fierros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Los Fierros\\Desktop\\Lab-y-progamacion-2\\Clase_06.Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Los Fierros\\Desktop\\UTN\\Lab-y-progamacion-2\\Clase_06.Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
