@@ -26,5 +26,10 @@ namespace Clase_09.Entidades
         {
             return Alumno.Mostrar(this) + " Nota: " + this.nota;
         }
+
+        public override string ToString()
+        {
+            return Mostrar();
+        }
     }
 }

@@ -77,6 +77,9 @@ namespace Clase_09.Entidades
         {
             return !(a == b);
         }
-
+        public override string ToString()
+        {
+            return Alumno.Mostrar(this);
+        }
     }
 }

@@ -43,5 +43,18 @@ namespace Clase_09.WF
         {
             this.DialogResult = DialogResult.Cancel;
         }
+        public FrmAlumno(Alumno c):this()
+        {
+            string nombre = c.Nombre;
+            string apellido = c.Apellido;
+            int legajo = c.Legajo;
+            ETipoExamen examen = c.Examen;
+            this.txtNombre.Text = nombre;
+            this.txtApellido.Text = apellido;
+            this.txtLegajo.Text = legajo.ToString();
+            this.cmbTipoExamen.SelectedIndex = (int)examen;
+            this.txtLegajo.Enabled = false;
+
+        }
     }
 }

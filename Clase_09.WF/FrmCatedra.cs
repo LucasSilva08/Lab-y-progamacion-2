@@ -15,6 +15,7 @@ namespace Clase_09.WF
     {
         private Catedra miCatedra = new Catedra();
         private List<AlumnoCalificado> lista;
+
         public FrmCatedra()
         {
             InitializeComponent();
@@ -58,7 +59,8 @@ namespace Clase_09.WF
             {
                 if (!Object.Equals(miCatedra.Alumnos.ElementAt(i), null))
                 {
-                    this.listBoxAlumnos.Items.Add(Alumno.Mostrar(miCatedra.Alumnos.ElementAt(i)));
+                    //this.listBoxAlumnos.Items.Add(Alumno.Mostrar(miCatedra.Alumnos.ElementAt(i)));
+                    this.listBoxAlumnos.Items.Add(miCatedra.Alumnos[i].ToString());
                 }
 
             }
@@ -96,6 +98,28 @@ namespace Clase_09.WF
                 default:
                     break;
             }
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int indice = listBoxAlumnos.SelectedIndex;
+            FrmAlumno frmAlumno = new FrmAlumno(miCatedra.Alumnos[indice]);
+            frmAlumno.ShowDialog();
+            if (frmAlumno.DialogResult == DialogResult.OK)
+            {
+                miCatedra.Alumnos[indice] = frmAlumno.Alumno;
+                ActualizarListadoAlumnos();
+            }
+
+
+
+        }
+
+        private void btnCalificar_Click(object sender, EventArgs e)
+        {
+            int indice = listBoxAlumnos.SelectedIndex;
+            FrmAlumnoCalificado frmAlumnoCalificado = new FrmAlumnoCalificado(miCatedra.Alumnos[indice]);
+            frmAlumnoCalificado.ShowDialog();
         }
     }
 }
