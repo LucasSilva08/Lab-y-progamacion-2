@@ -28,7 +28,7 @@ namespace Clase_09.WF
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
     }
 }
