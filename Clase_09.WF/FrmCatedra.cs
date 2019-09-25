@@ -28,8 +28,6 @@ namespace Clase_09.WF
             }
             this.cmbOrdenamiento.SelectedItem = ETipoOrdenamiento.LegajoAscendente;
             this.cmbOrdenamiento.DropDownStyle = ComboBoxStyle.DropDownList;
-            
-
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -38,7 +36,6 @@ namespace Clase_09.WF
             frmAlumno.ShowDialog();
             if (frmAlumno.DialogResult == DialogResult.OK)
             {   
-                
                  if (miCatedra + frmAlumno.Alumno)
                  {
                     ActualizarListadoAlumnos();
@@ -48,11 +45,9 @@ namespace Clase_09.WF
                  {
                     MessageBox.Show("Nose puede cargar el Alumno!!");
                  }
-
-
-
             }
         }
+
         private void ActualizarListadoAlumnos()
         {
             this.listBoxAlumnos.Items.Clear();
@@ -64,11 +59,9 @@ namespace Clase_09.WF
                     //this.listBoxAlumnos.Items.Add(Alumno.Mostrar(miCatedra.Alumnos.ElementAt(i)));
                     this.listBoxAlumnos.Items.Add(miCatedra.Alumnos[i].ToString());
                 }
-
             }
-
-
         }
+
         private void ActualizarListadoAlumnosCalificados()
         {
             this.listBoxAlumnosCalificados.Items.Clear();
@@ -86,25 +79,18 @@ namespace Clase_09.WF
                 case ETipoOrdenamiento.LegajoAscendente://Legajo Ascendente
                     miCatedra.Alumnos.Sort(Alumno.OrdenarPorLegajoAsc);
                     ActualizarListadoAlumnos();
-
-
                     break;
                 case ETipoOrdenamiento.LegajoDescendente://Legajo Descendente
                     miCatedra.Alumnos.Sort(Alumno.OrdenarPorLegajoDesc);
                     ActualizarListadoAlumnos();
-
-
                     break;
                 case ETipoOrdenamiento.ApellidoAscendente://Apellido Ascendente
                     miCatedra.Alumnos.Sort(Alumno.OrdenarPorApellidoAsc);
                     ActualizarListadoAlumnos();
-
                     break;
                 case ETipoOrdenamiento.ApellidoDescendente://Apellido Descendente
                     miCatedra.Alumnos.Sort(Alumno.OrdenarPorApellidoDesc);
                     ActualizarListadoAlumnos();
-
-
                     break;
                 default:
                     break;
@@ -121,9 +107,6 @@ namespace Clase_09.WF
                 miCatedra.Alumnos[indice] = frmAlumno.Alumno;
                 ActualizarListadoAlumnos();
             }
-
-
-
         }
 
         private void btnCalificar_Click(object sender, EventArgs e)
@@ -134,9 +117,16 @@ namespace Clase_09.WF
             if(frmAlumnoCalificado.DialogResult==DialogResult.OK)
             {
                 listaCalificados.Add(frmAlumnoCalificado.AlumnoCalificado);
-                miCatedra.Alumnos.RemoveAt(indice);
-                ActualizarListadoAlumnos();
-                ActualizarListadoAlumnosCalificados();
+                if(miCatedra-frmAlumnoCalificado.AlumnoCalificado)
+                {
+                     ActualizarListadoAlumnos();
+                     ActualizarListadoAlumnosCalificados();
+                }
+                else
+                {
+                    MessageBox.Show("Nose puede Eliminar el Alumno!!");
+                }
+                
             }
         }
     }

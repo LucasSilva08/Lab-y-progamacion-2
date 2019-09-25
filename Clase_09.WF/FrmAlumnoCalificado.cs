@@ -15,20 +15,13 @@ namespace Clase_09.WF
     {
         private AlumnoCalificado miAlumnoCalificado;
         public AlumnoCalificado AlumnoCalificado { get {return this.miAlumnoCalificado; }  }
-        public FrmAlumnoCalificado()
+        
+        public FrmAlumnoCalificado(Alumno c):base(c)
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-        }
-        public FrmAlumnoCalificado(Alumno c):this()
-        {
-            this.txtApellido.Text = c.Apellido;
-            this.txtNombre.Text = c.Nombre;
-            this.txtLegajo.Text = c.Legajo.ToString();
-            this.cmbTipoExamen.SelectedIndex = (int)c.Examen;
             this.txtApellido.Enabled = false;
             this.txtNombre.Enabled = false;
-            this.txtLegajo.Enabled = false;
             this.cmbTipoExamen.Enabled = false;
         }
 

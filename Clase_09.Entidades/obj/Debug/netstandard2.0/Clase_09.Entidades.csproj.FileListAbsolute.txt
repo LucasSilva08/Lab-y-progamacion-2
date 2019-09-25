@@ -32,3 +32,4 @@ F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Enti
 F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
 F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
 F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb
+D:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csprojAssemblyReference.cache
