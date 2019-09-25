@@ -13,12 +13,14 @@ namespace Clase_09.WF
 {
     public partial class FrmCatedra : Form
     {
-        private Catedra miCatedra = new Catedra();
-        private List<AlumnoCalificado> lista;
+        private Catedra miCatedra;
+        private List<AlumnoCalificado> listaCalificados;
 
         public FrmCatedra()
         {
             InitializeComponent();
+            miCatedra = new Catedra();
+            listaCalificados = new List<AlumnoCalificado>();
             this.StartPosition = FormStartPosition.CenterScreen;
             foreach(ETipoOrdenamiento c in Enum.GetValues(typeof(ETipoOrdenamiento)))
             {
@@ -65,6 +67,15 @@ namespace Clase_09.WF
 
             }
 
+
+        }
+        private void ActualizarListadoAlumnosCalificados()
+        {
+            this.listBoxAlumnosCalificados.Items.Clear();
+            for (int i = 0; i < listaCalificados.Count; i++)
+            {
+                this.listBoxAlumnosCalificados.Items.Add(listaCalificados[i].ToString());
+            }
 
         }
 
@@ -120,6 +131,13 @@ namespace Clase_09.WF
             int indice = listBoxAlumnos.SelectedIndex;
             FrmAlumnoCalificado frmAlumnoCalificado = new FrmAlumnoCalificado(miCatedra.Alumnos[indice]);
             frmAlumnoCalificado.ShowDialog();
+            if(frmAlumnoCalificado.DialogResult==DialogResult.OK)
+            {
+                listaCalificados.Add(frmAlumnoCalificado.AlumnoCalificado);
+                miCatedra.Alumnos.RemoveAt(indice);
+                ActualizarListadoAlumnos();
+                ActualizarListadoAlumnosCalificados();
+            }
         }
     }
 }

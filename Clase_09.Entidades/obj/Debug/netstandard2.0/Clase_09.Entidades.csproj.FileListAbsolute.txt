@@ -15,3 +15,20 @@ D:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Enti
 D:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
 D:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
 D:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.deps.json
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.dll
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.pdb
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfoInputs.cache
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
+C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb
+F:\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.deps.json
+F:\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.dll
+F:\Lab-y-progamacion-2\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.pdb
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csprojAssemblyReference.cache
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csproj.CoreCompileInputs.cache
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfoInputs.cache
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
+F:\Lab-y-progamacion-2\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb

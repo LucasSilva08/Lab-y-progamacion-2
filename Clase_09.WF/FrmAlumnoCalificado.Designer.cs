@@ -32,6 +32,10 @@
             this.txtNota = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
+            // btnAceptar
+            // 
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
             // lblNota
             // 
             this.lblNota.AutoSize = true;
@@ -57,6 +61,8 @@
             this.Controls.Add(this.lblNota);
             this.Name = "FrmAlumnoCalificado";
             this.Text = "FrmAlumnoCalificado";
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
             this.Controls.SetChildIndex(this.txtNombre, 0);
             this.Controls.SetChildIndex(this.txtApellido, 0);
             this.Controls.SetChildIndex(this.txtLegajo, 0);

@@ -153,11 +153,11 @@
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblLegajo;
         private System.Windows.Forms.Label lblTipoExamen;
-        private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.Button btnCancelar;
         protected System.Windows.Forms.TextBox txtNombre;
         protected System.Windows.Forms.TextBox txtApellido;
         protected System.Windows.Forms.TextBox txtLegajo;
         protected System.Windows.Forms.ComboBox cmbTipoExamen;
+        protected System.Windows.Forms.Button btnAceptar;
+        protected System.Windows.Forms.Button btnCancelar;
     }
 }
