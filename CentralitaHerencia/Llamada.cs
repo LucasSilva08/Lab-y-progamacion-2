@@ -27,7 +27,7 @@ namespace CentralitaHerencia
         protected virtual string Mostrar()
         {
             StringBuilder cadena = new StringBuilder();
-            cadena.AppendFormat("Duracion de la llamada:  {0}, Nro de Origen: {1},Nro de Destino: ", this._duracion, this._nroOrigen, this._nroDestino);
+            cadena.AppendFormat("Duracion de la llamada:  {0}, Nro de Origen: {1},Nro de Destino: {2}", this._duracion, this._nroOrigen, this._nroDestino);
             return cadena.ToString();
 
         }
@@ -50,7 +50,7 @@ namespace CentralitaHerencia
         {
             return !(uno == dos);
         }
-        public int OrdenarPorDuracion(Llamada uno, Llamada dos)
+        public static int OrdenarPorDuracion(Llamada uno, Llamada dos)
         {
             int retorno = -1;
             if(uno._duracion>dos._duracion)

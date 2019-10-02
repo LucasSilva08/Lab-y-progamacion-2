@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lab-y-progamacion-2\\CentralitaHerencia\\CentralitaHerencia.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\CentralitaHerencia\\CentralitaHerencia.csproj",
       "projectName": "CentralitaHerencia",
-      "projectPath": "D:\\Lab-y-progamacion-2\\CentralitaHerencia\\CentralitaHerencia.csproj",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\CentralitaHerencia\\CentralitaHerencia.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "D:\\Lab-y-progamacion-2\\CentralitaHerencia\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Lab-y-progamacion-2\\CentralitaHerencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
