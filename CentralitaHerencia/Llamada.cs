@@ -50,7 +50,7 @@ namespace CentralitaHerencia
         {
             return !(uno == dos);
         }
-        public static int OrdenarPorDuracion(Llamada uno, Llamada dos)
+        public static int OrdenarPorDuracionAscendente(Llamada uno, Llamada dos)
         {
             int retorno = -1;
             if(uno._duracion>dos._duracion)
@@ -62,6 +62,10 @@ namespace CentralitaHerencia
                 retorno = 0;
             }
             return retorno;
+        }
+        public static int OrdenarPorDuracionDescendente(Llamada uno, Llamada dos)
+        {
+            return -1 * OrdenarPorDuracionAscendente(uno, dos);
         }
 
 

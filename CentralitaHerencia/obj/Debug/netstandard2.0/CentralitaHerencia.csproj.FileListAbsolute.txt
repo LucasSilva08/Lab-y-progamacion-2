@@ -7,3 +7,12 @@ C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\ne
 C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.AssemblyInfo.cs
 C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.dll
 C:\Users\Los Fierros\Desktop\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.pdb
+D:\Lab-y-progamacion-2\CentralitaHerencia\bin\Debug\netstandard2.0\CentralitaHerencia.deps.json
+D:\Lab-y-progamacion-2\CentralitaHerencia\bin\Debug\netstandard2.0\CentralitaHerencia.dll
+D:\Lab-y-progamacion-2\CentralitaHerencia\bin\Debug\netstandard2.0\CentralitaHerencia.pdb
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.dll
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.pdb
+D:\Lab-y-progamacion-2\CentralitaHerencia\obj\Debug\netstandard2.0\CentralitaHerencia.csprojAssemblyReference.cache

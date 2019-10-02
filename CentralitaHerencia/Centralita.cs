@@ -17,7 +17,11 @@ namespace CentralitaHerencia
         }
         public void OrdenarLLamadas()
         {
-            this._listaDeLlamada.Sort(Llamada.OrdenarPorDuracion);
+            this._listaDeLlamada.Sort(Llamada.OrdenarPorDuracionAscendente);
+        }
+        public void OrdenarDescendente()
+        {
+            this._listaDeLlamada.Sort(Llamada.OrdenarPorDuracionDescendente);
         }
         public float CalcularGanancia(TipoLLamada tipo)
         {
@@ -88,7 +92,7 @@ namespace CentralitaHerencia
             {
                 if(item is  Local)
                 {
-                    sb.AppendLine(((Local)item).ToString());
+                    sb.AppendFormat(((Local)item).ToString());
                 }
                 else if (item is Provincial)
                 {
