@@ -1,0 +1,9 @@
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\bin\Debug\netstandard2.0\ParcialMascotas.deps.json
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\bin\Debug\netstandard2.0\ParcialMascotas.dll
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\bin\Debug\netstandard2.0\ParcialMascotas.pdb
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.csprojAssemblyReference.cache
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.AssemblyInfoInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.AssemblyInfo.cs
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.dll
+C:\Users\Los Fierros\source\repos\ParcialMascotas\ParcialMascotas\obj\Debug\netstandard2.0\ParcialMascotas.pdb

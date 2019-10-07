@@ -1,0 +1,8 @@
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\bin\Debug\netstandard2.0\ParcialComensales.deps.json
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\bin\Debug\netstandard2.0\ParcialComensales.dll
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\bin\Debug\netstandard2.0\ParcialComensales.pdb
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\obj\Debug\netstandard2.0\ParcialComensales.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\obj\Debug\netstandard2.0\ParcialComensales.AssemblyInfoInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\obj\Debug\netstandard2.0\ParcialComensales.AssemblyInfo.cs
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\obj\Debug\netstandard2.0\ParcialComensales.dll
+C:\Users\Los Fierros\source\repos\ParcialComensales\ParcialComensales\obj\Debug\netstandard2.0\ParcialComensales.pdb

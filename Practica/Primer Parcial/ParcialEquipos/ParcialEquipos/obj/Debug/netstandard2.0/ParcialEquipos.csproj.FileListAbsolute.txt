@@ -1,0 +1,9 @@
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\bin\Debug\netstandard2.0\ParcialEquipos.deps.json
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\bin\Debug\netstandard2.0\ParcialEquipos.dll
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\bin\Debug\netstandard2.0\ParcialEquipos.pdb
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.csprojAssemblyReference.cache
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.AssemblyInfoInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.AssemblyInfo.cs
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.dll
+C:\Users\Los Fierros\source\repos\ParcialEquipos\ParcialEquipos\obj\Debug\netstandard2.0\ParcialEquipos.pdb

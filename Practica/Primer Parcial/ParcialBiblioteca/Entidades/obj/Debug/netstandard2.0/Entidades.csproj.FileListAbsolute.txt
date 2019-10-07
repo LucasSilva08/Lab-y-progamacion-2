@@ -1,0 +1,8 @@
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
