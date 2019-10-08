@@ -54,7 +54,8 @@ namespace Entidades
         #region Metodo
         private static string Mostrar(Libro l)
         {
-            return String.Format("LIBRO: {0}\n CANTIDAD DE PAGINAS: {1}\n AUTOR: {2}\n PRECIO: {3}",l._titulo,l.CantidadDePaginas,l._autor,l._precio);
+            string autor = l._autor;
+            return String.Format("LIBRO: {0}\nCANTIDAD DE PAGINAS: {1}\nAUTOR: {2}\nPRECIO: {3}",l._titulo,l.CantidadDePaginas,autor,l._precio);
         }
 
         #endregion
@@ -67,13 +68,13 @@ namespace Entidades
         public static bool operator ==(Libro a, Libro b)
         {
             bool retorno = false;
-            if(!Object.Equals(a,null)&&!Object.Equals(b,null))
-            {
+            
+            
                 if (a._titulo == b._titulo && a._autor == b._autor)
                 {
                     retorno = true;
                 }
-            }
+            
             else if (Object.Equals(a, null) && Object.Equals(b, null))
             {
                 retorno = true;

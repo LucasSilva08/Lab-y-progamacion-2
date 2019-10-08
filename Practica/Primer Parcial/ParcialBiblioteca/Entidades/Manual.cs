@@ -18,7 +18,8 @@ namespace Entidades
         #region Metodo
         public string Mostrar()
         {
-            return String.Format("{0}\n Tipo: {1}", (string)this, this.tipo);
+            
+            return String.Format("{0}\nTipo: {1}", (string)this, this.tipo);
         }
         #endregion
 
@@ -26,7 +27,7 @@ namespace Entidades
         public static bool operator==(Manual a, Manual b)
         {
             bool retorno=false;
-            if((Libro)a==(Libro)b && a.tipo==b.tipo)
+            if(((Libro)a) == ((Libro)b) && a.tipo==b.tipo)
             {
                 retorno = true;
             }

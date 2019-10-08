@@ -6,3 +6,12 @@ C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstand
 C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
 C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 C:\Users\Los Fierros\source\repos\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+D:\Lab-y-progamacion-2\Practica\Primer Parcial\ParcialBiblioteca\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

@@ -28,8 +28,18 @@ namespace Entidades
             sb.AppendLine("*********************************************");
             foreach(Libro item in e._libros)
             {
-                sb.AppendLine((string)item);
-                sb.AppendLine("\n");
+                if (item is Novela)
+                {
+                     sb.AppendLine(((Novela)item).Mostrar());
+                     sb.AppendLine("\n");
+                }
+                else if( item is Manual)
+                {
+                    sb.AppendLine(((Manual)item).Mostrar());
+                    sb.AppendLine("\n");
+                }
+                
+                
             }
             return sb.ToString();
         }
@@ -45,9 +55,20 @@ namespace Entidades
             bool retorno = false;
             foreach(Libro item in e._libros)
             {
-                if(item == l)
+                if(item is Manual && l is Manual)
                 {
-                    retorno = true;
+                    if(((Manual)item)==((Manual)l))
+                    {
+                        retorno = true;
+                    }
+
+                }
+                else if( item is Novela && l is Novela)
+                {
+                    if(((Novela)item) == ((Novela)l))
+                    {
+                        retorno = true;
+                    }
                 }
             }
             return retorno;

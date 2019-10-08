@@ -17,12 +17,13 @@ namespace Entidades
         #region Metodo
         public string Mostrar()
         {
-            return String.Format("{0}\n Tipo: {1} ", (string)this, this.genero);
+            
+            return String.Format("{0}\nTipo: {1} ", (string)this, this.genero);
         }
         public static bool operator ==(Novela a, Novela b)
         {
             bool retorno = false;
-            if((Libro)a==(Libro)b && a.genero==b.genero)
+            if(((Libro)a)==((Libro)b) && a.genero==b.genero)
             {
                 retorno = true;
             }
