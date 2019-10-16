@@ -1,0 +1,9 @@
+F:\Lab-y-progamacion-2\Clase_16.Entidades\bin\Debug\netstandard2.0\Clase_16.Entidades.deps.json
+F:\Lab-y-progamacion-2\Clase_16.Entidades\bin\Debug\netstandard2.0\Clase_16.Entidades.dll
+F:\Lab-y-progamacion-2\Clase_16.Entidades\bin\Debug\netstandard2.0\Clase_16.Entidades.pdb
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.csproj.CoreCompileInputs.cache
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.AssemblyInfoInputs.cache
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.AssemblyInfo.cs
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.dll
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.pdb
+F:\Lab-y-progamacion-2\Clase_16.Entidades\obj\Debug\netstandard2.0\Clase_16.Entidades.csprojAssemblyReference.cache
