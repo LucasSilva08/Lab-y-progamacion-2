@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\bin\Debug\netstandard2.0\Clase_17.deps.json
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\bin\Debug\netstandard2.0\Clase_17.dll
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\bin\Debug\netstandard2.0\Clase_17.pdb
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.dll
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_17\obj\Debug\netstandard2.0\Clase_17.pdb
