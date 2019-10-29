@@ -1,0 +1,6 @@
+D:\VisualStudio\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.exe.config
+D:\VisualStudio\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.exe
+D:\VisualStudio\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.pdb
+D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.exe
+D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.pdb

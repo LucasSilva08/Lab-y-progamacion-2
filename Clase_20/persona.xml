@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nombre>Juan</nombre>
+  <apellido>Perez</apellido>
+  <Edad>20</Edad>
+  <ListaApodos>
+    <string>Toto</string>
+    <string>Locura</string>
+  </ListaApodos>
+</Persona>
