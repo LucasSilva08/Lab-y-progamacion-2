@@ -4,3 +4,11 @@ D:\VisualStudio\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.pdb
 D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.csproj.CoreCompileInputs.cache
 D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.exe
 D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.pdb
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.exe.config
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.exe
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\bin\Debug\Clase_20.Test.pdb
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.exe
+C:\Users\alumno\Desktop\Lab-y-progamacion-2\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.pdb
+D:\VisualStudio\Clase_20\Clase_20.Test\obj\Debug\Clase_20.Test.csprojAssemblyReference.cache

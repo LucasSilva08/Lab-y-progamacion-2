@@ -11,6 +11,11 @@ namespace Clase_20.Test
         public int legajo;
         public double sueldo;
 
+        public Empleado()
+        {
+
+        }
+
         public Empleado (string nombre,string apellido,int edad, int legajo,double sueldo):base(nombre,apellido,edad)
         {
             this.legajo = legajo;

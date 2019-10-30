@@ -9,6 +9,10 @@ namespace Clase_20.Test
     public class Alumno:Persona
     {
         public double nota;
+        public Alumno()
+        {
+
+        }
 
         public Alumno(string nombre, string apellido, int edad, double nota):base(nombre,apellido,edad)
         {

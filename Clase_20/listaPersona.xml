@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona xsi:type="Empleado">
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <Edad>20</Edad>
+    <ListaApodos />
+    <legajo>1234</legajo>
+    <sueldo>15000</sueldo>
+  </Persona>
+  <Persona xsi:type="Alumno">
+    <nombre>Lucas</nombre>
+    <apellido>Silva</apellido>
+    <Edad>26</Edad>
+    <ListaApodos>
+      <string>Pocho</string>
+    </ListaApodos>
+    <nota>9</nota>
+  </Persona>
+  <Persona>
+    <nombre>Pepe</nombre>
+    <apellido>Ortiz</apellido>
+    <Edad>30</Edad>
+    <ListaApodos />
+  </Persona>
+</ArrayOfPersona>

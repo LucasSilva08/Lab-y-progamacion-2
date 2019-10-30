@@ -83,6 +83,7 @@ namespace Clase_20.Test
             Empleado miEmpleado = new Empleado("Juan", "Perez", 20, 1234, 15000);
             Alumno miAlumno = new Alumno("Lucas", "Silva", 26, 9);
             Persona miPersona = new Persona("Pepe", "Ortiz", 30);
+            miAlumno.ListaApodos.Add("Pocho");
             lista.Add(miEmpleado);
             lista.Add(miAlumno);
             lista.Add(miPersona);
