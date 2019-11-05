@@ -40,5 +40,11 @@ namespace AdminPersonas
         {
             this.DialogResult = DialogResult.Cancel;
         }
+        public frmPersona(Persona c):this()
+        {
+            this.txtNombre.Text = c.nombre;
+            this.txtApellido.Text = c.apellido;
+            this.txtEdad.Text = c.edad.ToString();
+        }
     }
 }

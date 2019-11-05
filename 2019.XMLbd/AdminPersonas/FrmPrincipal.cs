@@ -19,6 +19,8 @@ namespace AdminPersonas
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
+        private Persona miPersona;
+        DataTable tablaPersonas;
 
         public FrmPrincipal()
         {
@@ -26,8 +28,9 @@ namespace AdminPersonas
 
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
-
+            
             this.lista = new List<Persona>();
+            this.CargarDataTable();
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -95,6 +98,7 @@ namespace AdminPersonas
                 SqlDataReader data = command.ExecuteReader();
                 while (data.Read()!=false)
                 {
+                    
                     MessageBox.Show(data["id"].ToString()+" " +data["nombre"].ToString() + " " + data["apellido"].ToString() + " " + data["edad"].ToString());
                 }
                 data.Close();
@@ -106,6 +110,62 @@ namespace AdminPersonas
                 MessageBox.Show(exep.Message);
 
 
+            }
+        }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void traerTodosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.lista.Clear();
+            try
+            {
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+                conexion.Open();
+                SqlCommand cmb = new SqlCommand();
+                cmb.Connection = conexion;
+                cmb.CommandType = CommandType.Text;
+                cmb.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]";
+                SqlDataReader data = cmb.ExecuteReader();
+                while (data.Read() != false)
+                {
+                    this.miPersona = new Persona(data["nombre"].ToString(), data["apellido"].ToString(), int.Parse(data["edad"].ToString()));
+                    this.lista.Add(miPersona);
+                }
+                data.Close();
+                conexion.Close();
+                MessageBox.Show("CARGA EXITOSA");
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+            
+        }
+        private void CargarDataTable()
+        {
+            this.tablaPersonas = new DataTable("Persona");
+            try
+            {
+
+
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+                conexion.Open();
+                SqlCommand cmb = new SqlCommand();
+                cmb.Connection = conexion;
+                cmb.CommandType = CommandType.Text;
+                cmb.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]";
+                SqlDataReader data = cmb.ExecuteReader();
+                this.tablaPersonas.Load(data);
+                data.Close();
+                conexion.Close();
+            }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.Message);
             }
         }
     }

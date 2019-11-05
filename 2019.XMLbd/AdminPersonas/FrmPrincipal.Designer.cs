@@ -38,6 +38,7 @@
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.traerTodosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,7 +88,8 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.conectarToolStripMenuItem});
+            this.conectarToolStripMenuItem,
+            this.traerTodosToolStripMenuItem});
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
             this.salirToolStripMenuItem.Text = "BD";
@@ -95,7 +97,7 @@
             // conectarToolStripMenuItem
             // 
             this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
-            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.conectarToolStripMenuItem.Text = "Conectar";
             this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
             // 
@@ -104,10 +106,18 @@
             this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
             this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem1.Text = "Salir";
+            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // traerTodosToolStripMenuItem
+            // 
+            this.traerTodosToolStripMenuItem.Name = "traerTodosToolStripMenuItem";
+            this.traerTodosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.traerTodosToolStripMenuItem.Text = "Traer Todos";
+            this.traerTodosToolStripMenuItem.Click += new System.EventHandler(this.traerTodosToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -137,6 +147,7 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem traerTodosToolStripMenuItem;
     }
 }
 

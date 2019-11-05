@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using System.Data.SqlClient;
 
 namespace AdminPersonas
 {
@@ -24,6 +25,7 @@ namespace AdminPersonas
         public frmVisorPersona(List<Persona> lista):this()
         {
             this.lista = lista;
+            ActualizarLista();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -34,6 +36,21 @@ namespace AdminPersonas
             if(frm.DialogResult==DialogResult.OK)
             {
                 this.lista.Add(frm.Persona);
+                try
+                {
+                    SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+                    conexion.Open();
+                    SqlCommand cmb = new SqlCommand();
+                    cmb.Connection = conexion;
+                    cmb.CommandType = CommandType.Text;
+                    cmb.CommandText = "INSERT INTO Personas(nombre,apellido,edad)VALUES('"+ frm.Persona.nombre+"','"+frm.Persona.apellido+"',"+frm.Persona.edad+")";
+                    cmb.ExecuteNonQuery();
+                    conexion.Close();
+                }
+                catch(Exception exp)
+                {
+                    MessageBox.Show(exp.Message);
+                }
             }
             ActualizarLista();
 
@@ -43,18 +60,62 @@ namespace AdminPersonas
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            frmPersona frm = new frmPersona(/*params*/);
+            int indice = this.lstVisor.SelectedIndex;
+            frmPersona frm = new frmPersona(this.lista[indice]);
             frm.StartPosition = FormStartPosition.CenterScreen;
+            frm.ShowDialog();
+            if(frm.DialogResult==DialogResult.OK)
+            {
+                this.lista[indice] = frm.Persona;
+                try
+                {
 
-            //implementar
+
+                    SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+                    conexion.Open();
+                    SqlCommand cmb = new SqlCommand();
+                    cmb.Connection = conexion;
+                    cmb.CommandType = CommandType.Text;
+                    cmb.CommandText = "UPDATE Personas SET nombre='" + frm.Persona.nombre + "',apellido='" + frm.Persona.apellido + "',edad=" + frm.Persona.edad+ "WHERE id=" + (indice + 1);
+                    cmb.ExecuteNonQuery();
+                    conexion.Close();
+                }
+                catch(Exception exp)
+                {
+                    MessageBox.Show(exp.Message);
+                }
+
+
+            }
+            ActualizarLista();
+            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            frmPersona frm = new frmPersona();
-            frm.StartPosition = FormStartPosition.CenterScreen;
+            int indice = this.lstVisor.SelectedIndex;
+            //frmPersona frm = new frmPersona();
+            //frm.StartPosition = FormStartPosition.CenterScreen;
+            this.lista.RemoveAt(indice);
+            try
+            {
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+                conexion.Open();
+                SqlCommand cmb = new SqlCommand();
+                cmb.Connection = conexion;
+                cmb.CommandType = CommandType.Text;
+                cmb.CommandText = "DELETE FROM Personas WHERE nombre='" + this.lista[indice].nombre+"'";
+                cmb.ExecuteNonQuery();
+                conexion.Close();
+            }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.Message);
+            }
 
-            //implementar
+            ActualizarLista();
+
+            
         }
         private void ActualizarLista()
         {
