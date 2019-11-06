@@ -21,6 +21,8 @@ namespace AdminPersonas
         private List<Persona> lista;
         private Persona miPersona;
         DataTable tablaPersonas;
+        SqlDataAdapter da;
+        SqlConnection conexion;
 
         public FrmPrincipal()
         {
@@ -28,8 +30,10 @@ namespace AdminPersonas
 
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
-            
+            this.tablaPersonas = new DataTable("Persona");
             this.lista = new List<Persona>();
+            this.conexion = new SqlConnection(Properties.Settings.Default.conexion);
+            this.da = new SqlDataAdapter("SELECT * FROM[personas_bd].[dbo].[personas]",conexion);
             this.CargarDataTable();
         }
 
@@ -88,21 +92,23 @@ namespace AdminPersonas
         {
             try
             {
-                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
+
                 conexion.Open();
-                MessageBox.Show("OK");
                 SqlCommand command = new SqlCommand();
                 command.Connection = conexion;
                 command.CommandType = CommandType.Text;
                 command.CommandText = "SELECT TOP 1000[id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
+                this.da.Fill(this.tablaPersonas);
+                MessageBox.Show("OK");
                 SqlDataReader data = command.ExecuteReader();
                 while (data.Read()!=false)
                 {
-                    
+
                     MessageBox.Show(data["id"].ToString()+" " +data["nombre"].ToString() + " " + data["apellido"].ToString() + " " + data["edad"].ToString());
                 }
                 data.Close();
                 conexion.Close();
+
 
             }
             catch(Exception exep)
@@ -123,12 +129,12 @@ namespace AdminPersonas
             this.lista.Clear();
             try
             {
-                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
-                conexion.Open();
+                
                 SqlCommand cmb = new SqlCommand();
                 cmb.Connection = conexion;
                 cmb.CommandType = CommandType.Text;
                 cmb.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]";
+                this.da.Fill(this.tablaPersonas);
                 SqlDataReader data = cmb.ExecuteReader();
                 while (data.Read() != false)
                 {
@@ -147,21 +153,53 @@ namespace AdminPersonas
         }
         private void CargarDataTable()
         {
-            this.tablaPersonas = new DataTable("Persona");
+            
+            try
+            {
+
+                
+                
+                SqlCommand cmb = new SqlCommand();
+                
+                cmb.CommandType = CommandType.Text;
+                cmb.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]";
+                this.da.Fill(this.tablaPersonas);
+                this.da.InsertCommand = new SqlCommand("INSERT INTO Personas VALUES(@p1,@p2,@p3)", conexion);
+                this.da.UpdateCommand = new SqlCommand("UPDATE Personas SET nombre=@p1,apellido=@p2,edad=@p3 WHERE id=@p0",conexion);
+                this.da.DeleteCommand = new SqlCommand("DELETE FROM Personas WHERE id=@p0 ",conexion);
+                da.DeleteCommand.Parameters.Add("@p0", SqlDbType.Int, 10, "id");
+                da.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                da.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                da.InsertCommand.Parameters.Add("@p3", SqlDbType.Int, 10, "edad");
+                da.UpdateCommand.Parameters.Add("@p0", SqlDbType.Int, 10, "id");
+                da.UpdateCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                da.UpdateCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                da.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 10, "edad");
+
+
+
+            }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.Message);
+            }
+        }
+
+        private void visualizarTablaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVisorDataTable frm = new FrmVisorDataTable(this.tablaPersonas);
+            frm.ShowDialog();
+            this.tablaPersonas = frm.DATA;
+        }
+
+        private void sincronizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             try
             {
 
 
-                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.conexion);
-                conexion.Open();
-                SqlCommand cmb = new SqlCommand();
-                cmb.Connection = conexion;
-                cmb.CommandType = CommandType.Text;
-                cmb.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]";
-                SqlDataReader data = cmb.ExecuteReader();
-                this.tablaPersonas.Load(data);
-                data.Close();
-                conexion.Close();
+                da.Update(this.tablaPersonas);
+                MessageBox.Show("SINCRONIZO CORRECTAMENTE");
             }
             catch(Exception exp)
             {

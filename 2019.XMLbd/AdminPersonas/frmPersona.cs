@@ -46,5 +46,6 @@ namespace AdminPersonas
             this.txtApellido.Text = c.apellido;
             this.txtEdad.Text = c.edad.ToString();
         }
+        
     }
 }
