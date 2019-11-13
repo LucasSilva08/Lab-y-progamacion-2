@@ -19,6 +19,7 @@ namespace AdminPersonas
             InitializeComponent();
             this.data = new DataTable();
             this.data = new DataTable("Persona");
+            
         }
         public FrmVisorDataTable(DataTable data):this()
         {
@@ -46,6 +47,8 @@ namespace AdminPersonas
         }
         protected override void btnModificar_Click(object sender, EventArgs e)
         {
+            this.btnModificar.Click -= new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click -= new EventHandler(btnEliminar_Click);
             DataRow fila =  this.data.Rows[this.lstVisor.SelectedIndex];
             frmPersona frm = new frmPersona(new Entidades.Persona(fila["nombre"].ToString(),fila["apellido"].ToString(),int.Parse(fila["edad"].ToString())));
             frm.ShowDialog();
@@ -59,6 +62,8 @@ namespace AdminPersonas
         }
         protected override void btnEliminar_Click(object sender, EventArgs e)
         {
+            this.btnModificar.Click -= new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click -= new EventHandler(btnEliminar_Click);
             int indice = this.lstVisor.SelectedIndex;
             DataRow fila = this.data.Rows[indice];
             frmPersona frm = new frmPersona(new Entidades.Persona(fila["nombre"].ToString(), fila["apellido"].ToString(), int.Parse(fila["edad"].ToString())));

@@ -187,6 +187,7 @@ namespace AdminPersonas
 
         private void visualizarTablaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             FrmVisorDataTable frm = new FrmVisorDataTable(this.tablaPersonas);
             frm.ShowDialog();
             this.tablaPersonas = frm.DATA;

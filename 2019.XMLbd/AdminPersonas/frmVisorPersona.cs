@@ -16,16 +16,19 @@ namespace AdminPersonas
     {
         private List<Persona> lista;
         public List<Persona> listaPersonas { get {return this.lista; } }
+        
         public frmVisorPersona()
         {
             
             InitializeComponent();
             this.lista = new List<Persona>();
+            
         }
         public frmVisorPersona(List<Persona> lista):this()
         {
             this.lista = lista;
             ActualizarLista();
+            
         }
 
         protected virtual void btnAgregar_Click(object sender, EventArgs e)
@@ -125,6 +128,21 @@ namespace AdminPersonas
                 lstVisor.Items.Add(item.ToString());
             }
 
+        }
+
+        private void frmVisorPersona_Load(object sender, EventArgs e)
+        {
+            this.btnAgregar.Click += new EventHandler(btnAgregar_Click);
+            this.btnModificar.Click -= new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click -= new EventHandler(btnEliminar_Click);
+        }
+
+        private void lstVisor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.btnModificar.Click += new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click += new EventHandler(btnEliminar_Click);
+
+            
         }
     }
 }
