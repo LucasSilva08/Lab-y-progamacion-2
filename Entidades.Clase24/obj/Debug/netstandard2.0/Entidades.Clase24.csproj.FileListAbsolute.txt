@@ -1,0 +1,12 @@
+D:\Lab-y-progamacion-2\Entidades.Clase24\bin\Debug\netstandard2.0\Entidades.Clase24.deps.json
+D:\Lab-y-progamacion-2\Entidades.Clase24\bin\Debug\netstandard2.0\Entidades.Clase24.dll
+D:\Lab-y-progamacion-2\Entidades.Clase24\bin\Debug\netstandard2.0\Entidades.Clase24.pdb
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.csprojAssemblyReference.cache
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.csproj.CoreCompileInputs.cache
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.AssemblyInfoInputs.cache
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.AssemblyInfo.cs
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.dll
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.pdb
+D:\Lab-y-progamacion-2\Entidades.Clase24\bin\Debug\netstandard2.0\Entidades.Externa.dll
+D:\Lab-y-progamacion-2\Entidades.Clase24\obj\Debug\netstandard2.0\Entidades.Clase24.csproj.CopyComplete
+D:\Lab-y-progamacion-2\Entidades.Clase24\bin\Debug\netstandard2.0\Entidades.Externa.Sellada.dll
